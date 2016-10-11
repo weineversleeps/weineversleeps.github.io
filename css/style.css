@@ -1,0 +1,101 @@
+
+
+body{
+	background-image: url('../images/pizza.png');
+	background-repeat: repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+#container {
+	background-color: #d3d3d3;
+	padding: 10%;
+	margin: 10%;
+	border-radius: 25px;
+	border: 2px solid white;
+}
+
+#title {
+	color: black;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	text-shadow: -5px 0 white;
+	}
+
+input {
+	padding: 10%;
+	width: 30%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	margin: 20px 0;
+	border: 1px solid yellow;
+	box-shadow: none;
+	padding: 10px;
+	border-radius: 25px;
+	float: center;
+}
+
+select {
+	padding: 10%;
+	width: 30%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	margin: 20px 0;
+	border: 1px solid yellow;
+	box-shadow: none;
+	padding: 10%;
+	border-radius: 25px;
+	align-content: center;
+
+}
+
+
+
+button {
+	width: 200px;
+	background-color: #a11d0e;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: white;
+	margin: 20px 0;
+	border: 1px solid yellow;
+	box-shadow: none;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+#output {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+
+}
+
+@media screen and (max-width: 940px){
+	select {
+		padding: 10%;
+		width: 100%;
+		font-family: 'Raleway', sans-serif;
+		font-size: 14px;
+		margin: 20px 0;
+		border: 1px solid yellow;
+		box-shadow: none;
+		padding: 10%;
+		border-radius: 25px;
+		align-content: center;
+
+		}
+
+		input {
+		padding: 10%;
+		width: 100%;
+		font-family: 'Raleway', sans-serif;
+		font-size: 14px;
+		margin: 20px 0;
+		border: 1px solid yellow;
+		box-shadow: none;
+		padding: 10px;
+		border-radius: 25px;
+		float: center;
+	}
