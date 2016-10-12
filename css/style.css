@@ -1,5 +1,4 @@
 
-
 body{
 	background-image: url('../images/pizza.png');
 	background-repeat: repeat;
@@ -10,6 +9,7 @@ body{
 
 #container {
 	background-color: #d3d3d3;
+	/*opacity: 0.6;*/
 	padding: 10%;
 	margin: 10%;
 	border-radius: 25px;
@@ -39,6 +39,7 @@ input {
 
 select {
 	padding: 10%;
+	height: 35px;
 	width: 30%;
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
@@ -51,8 +52,6 @@ select {
 
 }
 
-
-
 button {
 	width: 200px;
 	background-color: #a11d0e;
@@ -64,7 +63,13 @@ button {
 	box-shadow: none;
 	padding: 10px;
 	border-radius: 25px;
+
 }
+
+#submit {
+    cursor: url("../images/sliceofpizza.png"), auto;
+  }
+
 
 #output {
 	font-family: 'Raleway', sans-serif;

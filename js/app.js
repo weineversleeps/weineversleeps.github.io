@@ -3,6 +3,8 @@ $(document).ready(function () {
 	var levelOfHunger
 	var pizzas
 
+	
+
 	$('#submit').click(function(){
 		numberOfPeople = $('#people').val();
 		levelOfHunger = $('select').val();
