@@ -6,17 +6,6 @@ body{
 	background-size: cover;
 }
 
-
-#container {
-	background-color: #d3d3d3;
-	/*opacity: 0.6;*/
-	padding: 10%;
-	margin: 10%;
-	border-radius: 25px;
-	border: 2px solid white;
-	text-align: center;
-}
-
 #title {
 	color: black;
 	text-align: center;
@@ -79,6 +68,16 @@ button {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 
+}
+
+#container {
+	background-color:rgba(211, 211, 211,0.7);
+	/*opacity: 0.6;*/
+	padding: 10%;
+	margin: 10%;
+	border-radius: 25px;
+	border: 2px solid white;
+	text-align: center;
 }
 
 @media screen and (max-width: 940px){
