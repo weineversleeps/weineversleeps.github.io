@@ -1,7 +1,7 @@
 
 body{
 	background-image: url('../images/pizza.png');
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
@@ -73,7 +73,6 @@ button {
 
 #container {
 	background-color:rgba(211, 211, 211,0.7);
-	/*opacity: 0.6;*/
 	padding: 10%;
 	margin: 10%;
 	border-radius: 25px;
